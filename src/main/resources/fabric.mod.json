@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "insanitymod",
+	"version": "${version}",
+	"name": "Insanity Mod",
+	"description": "This is an insanity mod based on drinking alcohol to keep you sane, created by Odinius and Willschla.",
+	"authors": [
+		"Odinis and Willschla!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/insanitymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.odinius.insanitymod.InsanityMod"
+		],
+		"fabric-datagen": [
+			"net.odinius.insanitymod.InsanityModDataGenerator"
+		],
+		"client": [
+			"net.odinius.insanitymod.InsanityModClient"
+		]
+	},
+	"mixins": [
+		"insanitymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
