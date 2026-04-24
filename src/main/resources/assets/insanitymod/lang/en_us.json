@@ -1,0 +1,8 @@
+{
+  "item.insanitymod.whiskey": "Whisky Bottle",
+  "item.insanitymod.wine": "Wine Flask",
+  "item.insanitymod.carlsberg": "Carlsberg Bottle",
+  "item.insanitymod.heineken": "Heineken Can",
+
+  "itemgroup.insanitymod.alcohol_items": "Alcohol"
+}
